@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: rgb(255, 187, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+    color: white;
+}
+
+.code {
+    font-family: monospace;
+    color: blue;
+}
+
+a {
+    color: #008000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:hover {
+    color: #800000;
+    text-decoration: underline;
+}
