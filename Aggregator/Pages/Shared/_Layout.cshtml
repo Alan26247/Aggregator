@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - rsgservice.online</title>
+
+    <link href="~/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet">
+
+    <title>Выполнение тестового задания</title>
+
+    <style type="text/css">
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 3px;
+            border: 1px solid black;
+        }
+
+        th {
+            background: #00b9ff;
+        }
+    </style>
+</head>
+
+<body  style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 2rm;">
+    <header class="bg-dark text-center text-light">
+        <h1 class="text-center">Выполнение тестового задания</h1>
+    </header>
+
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-dark text-center text-light" style="height: 200px">
+        <div class="pt-5">
+            Тестовое задание. 2022 Романов С.Г.
+        </div>
+    </footer>
+
+    <script src="/bootstrap/bootstrap.js"></script>
+</body>
+</html>

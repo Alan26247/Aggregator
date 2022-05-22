@@ -27,6 +27,7 @@ namespace Aggregator
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddRazorPages();
 
             services.AddTransient<IAggregatorService, AggregatorService>();
 
@@ -55,6 +56,7 @@ namespace Aggregator
             app.UseEndpoints(async endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapRazorPages();
             });
         }
     }
